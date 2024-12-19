@@ -1,0 +1,15 @@
+.line-big{
+	height: 8px !important;
+	background: #20a4b2;
+  border-radius: 20px;
+  z-index: 2;
+	position: absolute;
+}
+.line-big-gray{
+	height: 8px !important;
+	background: gray;
+	position: absolute;
+  width: 100%;
+  border-radius: 20px;
+  z-index: 1;
+}

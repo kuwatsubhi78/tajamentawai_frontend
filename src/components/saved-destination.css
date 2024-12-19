@@ -1,0 +1,86 @@
+body{
+	background: white !important;
+}
+.icon{
+	width:32px;
+	height: 32px;
+}
+.icon-small{
+	width:24px;
+	height: 24px;
+}
+.icon img{
+	width: 100%;
+	height:100%;
+	object-fit: contain;
+	cursor: pointer;
+}
+.icon-small img{
+	width: 100%;
+	height:100%;
+	object-fit: cover;
+}
+.h-full{
+	height:100%;
+	background: blue;
+}
+
+.title{
+	font-weight:bold;
+	margin-bottom:10px;
+	font-size:20px;
+}
+
+.profile{
+	width:150px;
+	height:150px;
+	padding:10px;
+	background: #B8DFF2;
+	border-radius:50%;
+}
+.profile img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.edit-profile{
+	width:48px;
+	height:48px;
+	background: #084360;
+	border-radius:50%;
+	position: absolute;
+	bottom:0;
+	padding:13px;
+	cursor: pointer;
+	right:0;
+}
+.edit-profile img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.normal-font{
+	font-size:16px !important;
+}
+
+input, textarea{
+	width: 100%;
+	padding:10px 15px;
+	border:1px solid gainsboro;
+	border-radius:10px;
+}
+
+button{
+	padding:10px 15px;
+	border-radius: 5px;
+	background: #084360;
+	color:white;
+	font-weight: bold;
+}
+
+.line{
+	background:#20a4b2;
+	height:3px;
+	width:100%;
+}

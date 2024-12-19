@@ -1,0 +1,64 @@
+/* Container Section */
+.section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Card Style */
+.section-card {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+}
+
+/* Header Text */
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: teal;
+  font-weight: bold;
+}
+
+/* Content */
+.content {
+  background: rgba(0, 0, 0, 0.05);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.content-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+/* Footer */
+.footer {
+  margin-top: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: right;
+}
+
+/* Source Link */
+.source a {
+  color: teal;
+  text-decoration: none;
+}
+
+.source a:hover {
+  text-decoration: underline;
+}

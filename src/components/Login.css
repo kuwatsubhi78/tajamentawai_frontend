@@ -1,0 +1,77 @@
+.login-container {
+  display: flex;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Bagian Form Login */
+.login-form-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.login-form {
+  max-width: 400px;
+  width: 100%;
+}
+
+.login-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.login-subtitle {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #6c757d;
+  text-align: center;
+}
+
+/* Bagian Side Panel */
+.login-side-panel {
+  flex: 1;
+  background: linear-gradient(rgb(166 166 166 / 50%), rgb(0 0 0 / 50%)), url(http://localhost:3000/login_kebun_bg.jpg) no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.login-side-panel h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.login-side-panel p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.button_login{
+  background: #084360;
+  border-color: #084360;
+  font-weight:bold;
+}
+.btn-signin{
+  border-radius: 30px;
+  padding: 8px 40px;
+  font-weight: bold;
+}
+.input_login{
+  background: #b5c7cf;
+  border: 1px solid #084360;
+  color:white;
+}
+.forgot-pass-text{
+  font-weight: bold;
+  color:orange !important;
+}
